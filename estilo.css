@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.contenedor-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.caja {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+}
+
+#manzana:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  background-image: url(https://pbs.twimg.com/profile_images/718548621189332994/8zJhHeiH_400x400.jpg);
+  background-position: center;
+}
+#platano:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  background-image: url(https://www.less-tenerife.com/web/image/product.template/907/image_256/%5B10028%5D%20Pl%C3%A1tano%20ecol%C3%B3gico?unique=6057091);
+  background-position: center;
+}
+#kiwi:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  background-image: url(https://static.wikia.nocookie.net/scum_gamepedia_en/images/e/ea/Kiwi.png/revision/latest?cb=20220808051553);
+  background-position: center;
+}
+#pera:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  background-image: url(https://images.pricely.ar/images/103/2554802000006.jpg);
+  background-position: center;
+}
+#sandia:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  background-image: url(https://mercastic.es/_next/image?url=https%3A%2F%2F%2Fmercastic.es%2Fapi%2Fimage%2Fb144d82c-af3c-4f2f-8afc-9730e8aff196&w=256&q=75);
+  background-position: center;
+}
+#melon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  background-image: url(https://mercastic.es/_next/image?url=https%3A%2F%2F%2Fmercastic.es%2Fapi%2Fimage%2F2b2ad1c2-06e3-4f9f-9041-a545a8db2919&w=256&q=75);
+  background-position: center;
+}
+#aguacate:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  background-image: url(https://images.rappi.com.mx/products/1714410016632_1714410014782_1714410015990.png);
+  background-position: center;
+}
+#lechuga:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  background-image: url(https://images.rappi.cl/products/1656772394302_1656772390891.jpg?e=webp&q=80&d=130x130);
+  background-position: center;
+}
+#tomate:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  background-image: url(https://images.icon-icons.com/16/PNG/256/vegetables_tomato_food_1814.png);
+  background-position: center;
+}
+#ajo:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  background-image: url(https://coajosaceuchal.es/wp-content/uploads/2024/05/ajo.png);
+  background-position: center;
+}

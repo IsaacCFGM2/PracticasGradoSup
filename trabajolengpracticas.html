@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Fruteria</title>
+  <link rel="stylesheet" href="estilo.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h2>Fruteria</h2>
+  </header>
+
+  <div class="contenedor-flex">
+    <div class="caja" id="manzana">Manzanas</div>
+    <div class="caja" id="platano">Platanos</div>
+    <div class="caja" id="kiwi">Kiwis</div>
+    <div class="caja" id="pera">Peras</div>
+    <div class="caja" id="sandia">Sandias</div>
+  </div>
+  <div class="contenedor-flex">
+    <div class="caja" id="melon">Melones</div>
+    <div class="caja" id="aguacate">Aguacates</div>
+    <div class="caja" id="lechuga">Lechugas</div>
+    <div class="caja" id="tomate">Tomates</div>
+    <div class="caja" id="ajo">Ajos</div>
+  </div>
+  <div class="contenedor-flex">
+    <table class="tabla" border="2">
+      <tr>
+        <th><p>Nombre</p></th>
+        <th><p>Precio</p></th>
+        <th><p>Cantitad Productos</p></th>
+        <th><p>Calcular</p></th>
+        <th><p>Total</p></th>
+      </tr>
+      <tr>
+        <td><p>Manzana</p></td>
+        <td id="manzanaprecio">1.47</td>
+        <td><input type="number" id="cantidadmanzana" min="1"></td>
+        <td><button onclick="calcularmanzana()">Haz click y calculo el total a pagar</button></td>
+        <td><p id="totalmanzana"></p></td>
+      </tr>
+      <tr>
+        <td><p>Platano</p></td>
+        <td id="platanoprecio">1.70</td>
+        <td><input type="number" id="cantidadplatano" min="1"></td>
+        <td><button onclick="calcularplatano()">Haz click y calculo el total a pagar</button></td>
+        <td><p id="totalplatano"></p></td>
+      </tr>
+      <tr>
+        <td><p>Kiwi</p></td>
+        <td id="kiwiprecio">1.20</td>
+        <td><input type="number" id="cantidadkiwi" min="1"></td>
+        <td><button onclick="calcularkiwi()">Haz click y calculo el total a pagar</button></td>
+        <td><p id="totalkiwi"></p></td>
+      </tr>
+      <tr>
+        <td><p>Pera</p></td>
+        <td id="peraprecio">0.60</td>
+        <td><input type="number" id="cantidadpera" min="1"></td>
+        <td><button onclick="calcularpera()">Haz click y calculo el total a pagar</button></td>
+        <td><p id="totalpera"></p></td>
+      </tr>
+      <tr>
+        <td><p>Sandia</p></td>
+        <td id="sandiaprecio">5</td>
+        <td><input type="number" id="cantidadsandia" min="1"></td>
+        <td><button onclick="calcularsandia()">Haz click y calculo el total a pagar</button></td>
+        <td><p id="totalsandia"></p></td>
+      </tr>
+      <tr>
+        <td><p>Melon</p></td>
+        <td id="melonprecio">4.30</td>
+        <td><input type="number" id="cantidadmelon" min="1"></td>
+        <td><button onclick="calcularmelon()">Haz click y calculo el total a pagar</button></td>
+        <td><p id="totalmelon"></p></td>
+      </tr>
+      <tr>
+        <td><p>Aguacate</p></td>
+        <td id="aguacateprecio">1.50</td>
+        <td><input type="number" id="cantidadaguacate" min="1"></td>
+        <td><button onclick="calcularaguacate()">Haz click y calculo el total a pagar</button></td>
+        <td><p id="totalaguacate"></p></td>
+      </tr>
+      <tr>
+        <td><p>Lechuga</p></td>
+        <td id="lechugaprecio">3.50</td>
+        <td><input type="number" id="cantidadlechuga" min="1"></td>
+        <td><button onclick="calcularlechuga()">Haz click y calculo el total a pagar</button></td>
+        <td><p id="totallechuga"></p></td>
+      </tr>
+      <tr>
+        <td><p>Tomate</p></td>
+        <td id="tomateprecio">2</td>
+        <td><input type="number" id="cantidadtomate" min="1"></td>
+        <td><button onclick="calculartomate()">Haz click y calculo el total a pagar</button></td>
+        <td><p id="totaltomate"></p></td>
+      </tr>
+      <tr>
+        <td><p>Ajo</p></td>
+        <td id="ajoprecio">1</td>
+        <td><input type="number" id="cantidadajo" min="1"></td>
+        <td><button onclick="calcularajo()">Haz click y calculo el total a pagar</button></td>
+        <td><p id="totalajo"></p></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><button onclick="calculartotal()">Haz click y calculo la suma de todo</button></td>
+        <td><p id="cantidadtotal"></p></td>
+      </tr>
+    </table>
+  </div>
+  <div class="contenedor-flex">
+    <button onclick="cambiarfondorandom()">Haz Click y te Cambio el Fondo</button></div>
+
+</body>
+</html>
